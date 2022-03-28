@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5ABD5E"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="What do I need?" />
+
+    <CheckBox
+        android:id="@+id/Oil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Oil"
+        android:textSize="20sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/Lemon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Lemon"
+        android:textSize="20sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="@color/white"/>
+
+    <CheckBox
+        android:id="@+id/banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="banana"
+        android:textSize="20sp"
+        android:buttonTint="#FFFFFF"
+        android:textColor="@color/white"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxStrokeColor="#FFFFFF"
+        app:boxStrokeWidthFocused="2dp"
+        app:hintTextColor="#FFFFFF"
+        app:startIconTint="#FFFFFF">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/EditTextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
